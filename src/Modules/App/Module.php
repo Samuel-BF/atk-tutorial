@@ -8,11 +8,11 @@ class Module extends \Sintattica\Atk\Core\Module
 
     public function register()
     {
-        $this->registerNode('testNode', TestNode::class, ['admin', 'add', 'edit', 'delete']);
+        $this->registerNode('conference', Conference::class, ['admin', 'add', 'edit', 'delete']);
     }
 
     public function boot()
     {
-        $this->addNodeToMenu('testNode', 'testNode', 'admin');
+        $this->addNodeToMenu('Conferences', 'conference', 'admin');
     }
 }
