@@ -18,11 +18,11 @@ class Conference extends Node
         $this->setTable('app_conference');
 
         $this->add(new Attribute('id', Attribute::AF_AUTOKEY));
-        $this->add(new Attribute('title', Attribute::AF_OBLIGATORY));
+        $this->add(new Attribute('title', Attribute::AF_OBLIGATORY | Attribute::AF_SEARCHABLE));
         $this->add(new Attribute('subtitle'));
-        $this->add(new Attribute('speakers'));
-        $this->add(new TextAttribute('description'));
-        $this->add(new ListAttribute('room', Attribute::AF_OBLIGATORY, ['Borg', 'Adams', 'Dijkstra']));
+        $this->add(new Attribute('speakers', Attribute::AF_SEARCHABLE));
+        $this->add(new TextAttribute('description', Attribute::AF_HIDE_LIST));
+        $this->add(new ListAttribute('room', Attribute::AF_OBLIGATORY | Attribute::AF_SEARCHABLE, ['Borg', 'Adams', 'Dijkstra']));
         $this->add(new DateTimeAttribute('start', Attribute::AF_OBLIGATORY));
         $this->add(new DurationAttribute('duration', Attribute::AF_OBLIGATORY));
 
