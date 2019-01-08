@@ -8,9 +8,9 @@ return [
         'db' => [
             'default' => [
                 'host' => 'localhost',
-                'db' => 'atk-skeleton',
-                'user' => 'root',
-                'password' => '',
+                'db' => 'conference',
+                'user' => 'conference',
+                'password' => 'conference',
                 'charset' => 'utf8',
                 'driver' => 'MySqli',
             ],
@@ -19,6 +19,6 @@ return [
         'debug' => 1,
         'meta_caching' => false,
         'auth_ignorepasswordmatch' => false,
-        'administratorpassword' => '$2y$10$erDvMUhORJraJyxw9KXKKOn7D1FZNsaiT.g2Rdl/4V6qbkulOjUqi', // administrator
+        'administratorpassword' => '$2y$10$HURwCzn3JJmSV.8UZEVW/eaO/RSlYKELKFacIwTyKSPssxp101XDC', // demo
     ],
 ];

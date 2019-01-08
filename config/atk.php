@@ -23,7 +23,7 @@ return [
      */
     'identifier' => $_parameters['atk']['identifier'],
 
-    'language' => 'it',
+    'language' => 'en',
 
     'modules' => [
         App\Modules\Auth\Module::class,
