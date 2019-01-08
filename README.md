@@ -1,6 +1,6 @@
 # ATK Tutorial
 
-**Work in progress : ** tutorial is not written yet, so this repository is incomplete.
+**Work in progress**: tutorial is not written yet, so this repository is incomplete.
 
 This repository holds code for the [Atk Framework tutorial](https://github.com/Sintattica/atk/doc/README.md) :
 
