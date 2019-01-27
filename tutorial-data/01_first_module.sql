@@ -6,7 +6,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 DROP TABLE IF EXISTS `app_conference`;
 CREATE TABLE `app_conference` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) DEFAULT NULL,
   `subtitle` varchar(512) DEFAULT NULL,
   `speakers` varchar(200) DEFAULT NULL, -- For the moment, let's juste store speakers in a text field
