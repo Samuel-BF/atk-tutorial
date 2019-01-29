@@ -10,7 +10,6 @@ use Sintattica\Atk\Attributes\TextAttribute;
 use Sintattica\Atk\Relations\ManyToOneRelation;
 use Sintattica\Atk\Relations\ManyToManyRelation;
 use Sintattica\Atk\Relations\ManyToManySelectRelation;
-use Sintattica\Atk\Security\SecurityManager;
 
 class Conference extends Node
 {

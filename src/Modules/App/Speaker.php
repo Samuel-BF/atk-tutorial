@@ -6,7 +6,6 @@ use Sintattica\Atk\Core\Node;
 use Sintattica\Atk\Attributes\Attribute;
 use Sintattica\Atk\Attributes\UrlAttribute;
 use Sintattica\Atk\Relations\ManyToManySelectRelation;
-use Sintattica\Atk\Security\SecurityManager;
 
 class Speaker extends Node
 {

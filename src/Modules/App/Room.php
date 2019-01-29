@@ -6,7 +6,6 @@ use Sintattica\Atk\Core\Node;
 use Sintattica\Atk\Attributes\Attribute;
 use Sintattica\Atk\Attributes\NumberAttribute;
 use Sintattica\Atk\Relations\OneToManyRelation;
-use Sintattica\Atk\Security\SecurityManager;
 
 class Room extends Node
 {
